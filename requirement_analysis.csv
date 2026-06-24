@@ -1,0 +1,85 @@
+Lable,Card Name,Card Description
+Account settings ,Account Settings - Update Personal Info,"User Story:
+
+As a Student, I want to navigate to the Account Settings page from the profile menu and update my avatar, personal details, and demographic preferences,  So that I can personalize my profile and help the system customize my course recommendations based on my background.  
+
+Acceptance Criteria:
+
+I am a logged-in student on any page of the platform, When I click on my profile avatar in the header, Then a dropdown box must appear containing a link to ""Account Settings"".  
+
+I am on the Account Settings page, When I interact with the profile picture section, Then I must be able to change my profile avatar image.  
+
+I am on the Account Settings page, When I view the ""Personal info"" block, Then I must see editable fields for Job title, Location, Company name, Personal website, and short bio.  
+
+I am editing my profile, When I navigate to the ""Demographic info"" section, Then I must be able to select my primary category (Developer, IT Professional, Creative, Other) and select details for Years of Experience, Level within Organization, Industry, Role, Employment Status, Education Level, and Year of Birth.  
+
+I modify any fields in the Personal or Demographic info sections, When I click the ""Save demographic info"" or corresponding save button, Then the platform must persist the changes, update my profile details, and display a success validation message."
+Favourites,Favorites - Categorized Bookmarks Page,"User Story:
+
+As a Student, I want to add authors, courses, and lectures to my favorites from their respective pages and view them arranged on a centralized Favorites page,  So that I can quickly bookmark, save, and access learning content that I find interesting or want to revisit later.  
+
+Acceptance Criteria:
+
+I am browsing an Author public profile, a specific Course page, or a School public profile, When I click the ""Add to favorite"" (or ""Add authors to favorite"") button, then the target entity (Author, Course, or all authors belonging to that School) must be successfully added to my favorites repository.  
+
+I am logged into the application, when I click on the Favorites bookmark icon located in the top-right corner of the header, then I must be redirected to the standalone Favorites page.  
+
+I am on the Favorites page, then the interface must organize saved items into three clear, distinct tabs: Authors, Lectures, and Courses.  
+
+I am viewing items inside any tab on the Favorites page, when I click on a specific record, then the application must navigate me directly to that item's respective page (the Author page, Lecture page, or Course page)."
+Reactions,Reactions - Content Emoji Feedback,"User Story:
+
+As a Student, I want to leave quick emoji reactions on courses, lectures, and articles,  so that I can express my instant feedback, sentiment, and engagement with the content without needing to write a full comment.  
+
+Acceptance Criteria:
+
+I am a logged-in student viewing a specific Course page, a Lecture video block, or an Article page, Then an emoji reaction block must be visible to me. 
+
+The emoji block is rendered on the screen, when I hover or click on the reaction area, then a selection of emojis must be displayed for me to choose from.  
+
+I select a specific emoji reaction, when I click it, then my reaction must be counted, the user interface must dynamically update to reflect my selection, and other users must be able to see the accumulated reactions.  
+
+I have already left an emoji reaction on a item, when I click the same emoji reaction again, then my reaction must be toggled off/removed and the counter must decrement."
+Notifications,Notifications - Header Alert Dropdown,"User Story:
+
+As a Student, I want to see a visual alert on the notification icon and open a dropdown list of unread alerts whenever a new lecture, article, or course is posted by my subscriptions,  so that I can immediately stay updated on newly released learning materials and quickly jump directly to them.  
+
+Acceptance Criteria:
+
+An author, course, or school I am subscribed to publishes a new lecture, article, or course, when I look at the top-right header, then a prominent red dot notification badge must appear near the notification bell icon.  
+
+The notification badge is active, when I click on the notification bell icon in the header, then an overlay box must expand showing an array of all my unread notifications.  
+
+The unread notifications box is open, when I click on any individual notification record, then the application must open the target item's page (Lecture page, Course page, or Article page) and automatically mark that notification as read"
+Search,Search - Global Header Search Results,"User Story:
+
+As a Student, I want to type text queries into the global header search box and review categorized results, so that I can rapidly locate a specific course, author, school, path, or lecture that matches my learning intent.  
+
+Acceptance Criteria:
+
+I am on any page within the platform, then a global Search field input box must always be present and accessible in the middle section of the header component. 
+
+I am typing a query into the header search field, when matching text matches system entities, then a dynamic preview panel must display real-time matches for paths, courses, lectures, or authors.  
+
+I submit my search query by pressing enter or clicking an explicit result/search option, when the query executes, then the system must navigate me to a dedicated ""Search Results"" page.  
+
+I am on the Search Results page, then the output data must be structured and explicitly filterable via separate categorization tabs: Courses, Authors, Paths, and Schools.  
+
+I view any entity card or link within the search results categories, when I click on it, then the system must redirect me smoothly to its corresponding public page."
+Subscription,Subscription - Follow Authors,"User Story:
+
+As a Student, I want to follow schools, authors, or courses from their public profiles and view or manage all active followings within a centralized screen, so that I can manage my network of content updates and opt-out/unfollow any channels that no longer match my learning track.  
+
+Acceptance Criteria: 
+
+I am an authorized student browsing an Author public profile or a School public profile, when I click the ""Follow"" button placed underneath their main profile/avatar picture, then the button state must immediately transform to ""Following"" and register my subscription. 
+
+I subscribe to a school entity, then the system must automatically register my subscription to receive all subsequent updates and posts from every single author participating in that school.  
+
+I want to view my active subscriptions, when I navigate through Profile Menu > Profile and select the ""Followings"" link at the top of the page, then a dedicated Followings/Subscription box interface must expand.  
+
+The Followings box is opened, then it must segment my subscriptions into 3 accessible tabs: Courses, Authors, and Schools.  
+
+I am reviewing items inside any tab of the Followings interface, when I click a specific row or record, then it must take me directly to that item's public detail page.  
+
+I want to clean up my feed directly from the Followings tab or the item's main page, when I click the ""Unfollow"" button next to a subscription record, then the system must immediately revoke the connection and stop sending related updates. "
